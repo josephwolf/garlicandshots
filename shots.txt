@@ -1,0 +1,25 @@
+1;BLOODSHOT;Vodka, Tomato, Garlic, Chili, Spices
+2;GARLIC VODKA;Vodka, Vitlok
+3;GARLIC HONEY VODKA;Vodka, Vitlokschonung
+4;GARLIC HONEY BRANDY;Brandy, Vitlokschonung
+5;GARLIC HONEY DARK RUM;Mork Rom, Vitlokschonung
+6;GARLIC MARTINI SHOOTER;Vitloksvodka, Nolly Prat, Oliv
+7;LONG GIN SHOT;Gin, Cointrau, Lime
+8;INSTANT MARGERITA;Tequila, Cointrau, Lime
+9;FERNET TRIPLE STAR;Fernet Branca, Brandy, Cointrau
+10;FLY ME TO THE MOON;Banan, Vodka, Tequila, Menthe, Southern Comfort
+11;LONDON LONG DISTANCE;Chilitequila, Canadian Whiskey, Socker
+12;CAIPIRINHA SHOT;Rom, Lime, Socker
+13;KING OF DENMARK;Vodka, Kahlua, Cacao, Pernod, Chantreaus
+14;RYGGSKOTT - ACHIN' BACK;Brandy, Sambucca, Kahlua
+15;LIZZARD SHOT;Kinesisk Risödla, Tequila, Chilivodka, Menthe
+16;TURKISH PEPPER;Vodka, Turkish Peppar
+17;ISLA MILE SHOT;Tequila, Cointreau, Lemon Vodka, Rom
+18;RACING OIL;66 spices "Pick You Up" vodka
+19;OFF SHORE;Fernet Branca, Jägermeister, Gammeldansk
+20;PEACH SHOT;Vodka, Peach
+21;STINGER;Cognac, Menthe
+22;ALL BLACK;Pernod, Kahlua, Fernet Branca
+23;SWEET DEATH;Vodka, Peach, Cointreau
+24;FRIENDLY SUSAN;Lemon Vodka, Woo Woo
+25;BARFLY TIE;Chilitequila, Cointreau, Pernod
