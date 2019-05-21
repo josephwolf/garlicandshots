@@ -4,6 +4,7 @@ import os
 from time import sleep, time
 import curses
 import shutil
+from gpiozero import Button
 
 def clear_screen():
   os.system('cls' if os.name == 'nt' else 'clear')
@@ -43,20 +44,24 @@ class Shots:
         display_text += shot.ingredients.center(lw)
         display_text += '\n'
         display_text += ''.center(lw, '=')
+        
 
       clear_screen()
       print(display_text)
 
 def main(win):
-  win.nodelay(True)
+  win.nodelay(False)
   shots = Shots()
-  while 1:
-    try:
-      key = win.getkey()
-      if key == os.linesep:
-        break
-      shots.choose_random_shots()
-    except Exception as e:
-      pass
+  button = Button(25)
 
+  while True:
+    if button.is_pressed:
+      shots.choose_random_shots()
+    
 curses.wrapper(main)
+
+#shots = Shots()
+#button = Button(25)
+#while True:
+#  if button.is_pressed():
+#    shots.choose_random_shot()
