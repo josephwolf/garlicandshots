@@ -1,9 +1,9 @@
 1;BLOODSHOT;Vodka, Tomato, Garlic, Chili, Spices
-2;GARLIC VODKA;Vodka, Vitlok
-3;GARLIC HONEY VODKA;Vodka, Vitlokschonung
-4;GARLIC HONEY BRANDY;Brandy, Vitlokschonung
-5;GARLIC HONEY DARK RUM;Mork Rom, Vitlokschonung
-6;GARLIC MARTINI SHOOTER;Vitloksvodka, Nolly Prat, Oliv
+2;GARLIC VODKA;Vodka, Vitlök
+3;GARLIC HONEY VODKA;Vodka, Vitlökshonung
+4;GARLIC HONEY BRANDY;Brandy, Vitlökshonung
+5;GARLIC HONEY DARK RUM;Mörk Rom, Vitlökshonung
+6;GARLIC MARTINI SHOOTER;Vitlöksvodka, Nolly Prat, Oliv
 7;LONG GIN SHOT;Gin, Cointrau, Lime
 8;INSTANT MARGERITA;Tequila, Cointrau, Lime
 9;FERNET TRIPLE STAR;Fernet Branca, Brandy, Cointrau
@@ -23,3 +23,79 @@
 23;SWEET DEATH;Vodka, Peach, Cointreau
 24;FRIENDLY SUSAN;Lemon Vodka, Woo Woo
 25;BARFLY TIE;Chilitequila, Cointreau, Pernod
+26;MURENO;Dark Rum, Vodka, Chokomint
+27;TEX-MEX SHOOTER;Bourbon, Whisky, Kahlua
+28;I SHOT THE SHERIFF;Rom, Gin, Banan
+29;SPIDER WOMAN’S KISS;Chilivodka, Sambucca
+30;RUM PUNCH SHOT;Dark Rum, Swedish Punch
+31;LEMON VODKA;Vodka, Citron
+32;LIME VODKA;Vodka, Lime
+33;CHILI VODKA;Vodka, Chili
+34;NOTHERN LIGHTS;Vodka, Cassis
+35;EN REDI KRONOBERGARE;Vodka, Mild Örtkryddad Snaps
+36;HARLEY DAVIDSON OIL;Jack Daniel’s, Southern Comfort, Jägermeister
+37;DEER HUNTER SHOT;Jäger, Gammeldansk, Vodka
+38;BLACKN’D VOODOO;Vodka, Dark Rum, Cacao
+39;BRÄNNÄSSLA;Chilivodka, Grön Curaco
+40;TROPICAL SHOT;Vodka, Tequila, Rom, Fruktlikör
+41;PAUL MORNING SHOOTER;Fernet, Campari, Cacao
+42;HAIR OF THE DOG;Gammeldansk, Fernet, Vodka, Bourbon
+43;LIVER MASSAGE;Tequila, Jack Daniel’s, Vodka
+44;QUICKER THICKER LIQUER PICKER UPPER;Vodka, Punch, Fernet
+45;BJÖRNS HEADBANGER;Galliano, Tequila, Sambucca, Kahlua
+46;WOO WOO;Vodka, Peach, Cranberry
+47;ROBOT SHOT;Gin, Vodka, Blå Curaco, Pernod
+48;7-14-21;Vodka Lemon, Galliano, Pernod
+49;BITTER UP;Campari, Vodka, Gin
+50;BRAVE BULL;Tequila, Kahlua
+51;MAKE MY DAY;Whisky, Menthe, Vodka, Southern Comfort
+52;BLACK RIDER;Vodka, Bourbon, Kahlua
+53;LEMON TEQUILA;Tequila, Citron
+54;LIME TEQUILA;Tequila, Lime
+55;CHILI TEQUILA;Tequila, Chili
+56;THE WIZZARD;Drambui, Southern Comfort, Peach, Vodka
+57;BLACKN’D RUM;Dark Rum, Vodka, Pernod, Cacao
+58;BIG APPLE;Calvados, Vodka, Apfelcorn, Kanel
+59;4 DAYS ON THE ROAD;Lemon vodka, Cointreau, Cacao, Pernod
+60;YELLOW DEATH;Tequila, Bananas, Rom
+61;BLACK MELON;Vodka, Melon, Kahlua
+62;TONY MONTANA;Vodka, Kola, Cacao, Kahlua
+63;CUBA HOSTAL;Dark Rum, White Rum, Liquer 43, Lime
+64;ROY’S ROLLS;Baily’s, Kahlua, Whisky
+65;DEVIL’S EYE;Chilivodka, Strega
+66;BLACK DEATH;Vodka, Fernet, Kahlua
+67;RED DEVIL;Chilivodka, Cassis
+68;MELLOW MELON;Melon, Vodka, Sambucca
+69;MOJITO SHOT;Rom, Menthe, lime
+70;SEA HORSE;Sjöhäst, Vodka, Gin, Curaco
+71;JET BOY;Cointreau, Drambui, Whisky
+72;BLUE WATER;Gin, Vodka, Grand Mariner, Blå Curaco
+73;CATCH THE ELEVATOR;Gin, Grön Curaco, Lemon vodka
+74;RUM RUNNER;Dark rum, White rum, Banan, Cassis, Cranberry
+75;C.J. ROCKER;Bourbon, Vodka, Liquer 43, Kahlua
+76;www.blowout.se;Sambucca, Tequila, Tabasco
+77;BELLMAN’S LEG OPENER;Gin, Hasselnöt, Angostura
+78;BLUE ANGEL;Tequila, Curaco, Liquer 43
+79;IRON HOOK;Dark Rum, Bananas, Cocos, Triple Sec
+80;BESO DE FUEGO;Brandy, Sambucca, Rom
+81;SILICON BABE;Kanel, White Rum, Menthe
+82;GYPSY KINGS INSTANT SANGRIA;Cointrea, Brandy, Liquer 43, Rom, Moscatel, Lemon
+83;BrO’s LUMUMBA RAPIDO;Brandy, Baily’s, Cacao
+84;TEXAS KNOCK OUT;Tequila, Liquer 43, Rasberry, Lime
+85;BOMBAY COOLER SHOOTER;Gin, Peach, Cranberry
+86;LET’S GO PALMA;Rom, Lemon Liquer, Grenadine
+87;SOHO BACK STREET CRAWLER;Bananas, Baily’s, Vodka
+88;CRAZY SWEDE;Aquavit, Puch, Vodka
+89;TINTIN’S NIGHT SAFARI;White Rum, Bananas, White Cacao, Cocolada
+90;PEACE & LOVE;Vodka, Cranberry, Passionfruit
+91;TIME TO GET A GUN;Bourbon, Tequila, Kahlua
+92;NO BONE;Vodka, Chokomenthe, Cointreau
+93;PICK-ME-UP COCKTAIL SHOT;Cognac, Vermouth, Pernod
+94;NO FEAR SO FAR;Vodka, Sour Apple, Lemon Liquer
+95;SO LONG SLING;Vodka, Gin, Cherry, Cranberry
+96;CALEXICO CACTUS;Limetequila, Galliano, Bananas
+97;N.S.C. CALACCA;Rom, Averna, Fernet, Melon
+98;T.C.D. TAKING CARE OF MY DOGTAG;Sambucca, Baily’s, Kahlua
+99;TOBY OR NOT TOBY;Rom, Jameson, Chokomenthe
+100;MICKEY’S MOUSE;Averna, Peach
+101;PERRE PUNCHDRUNK;Vodka, Bourbon, Punch
