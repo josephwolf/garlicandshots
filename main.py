@@ -39,7 +39,7 @@ class Shots:
 
       for shot in shots:
         display_text = '\n'
-        display_text += '{}: {} '.format(shot.number,shot.name).center(lw, '=')
+        display_text += ' {}: {} '.format(shot.number,shot.name).center(lw, '=')
         display_text += '\n'
         display_text += shot.ingredients.center(lw)
         display_text += '\n'
@@ -50,7 +50,7 @@ class Shots:
       print(display_text)
 
 def main(win):
-  win.nodelay(False)
+  win.nodelay(True)
   shots = Shots()
   button = Button(25)
 
@@ -59,9 +59,3 @@ def main(win):
       shots.choose_random_shots()
     
 curses.wrapper(main)
-
-#shots = Shots()
-#button = Button(25)
-#while True:
-#  if button.is_pressed():
-#    shots.choose_random_shot()
