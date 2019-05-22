@@ -5,7 +5,7 @@ from time import sleep, time
 import curses
 import shutil
 from gpiozero import Button
-import sys
+import cv2
 
 def clear_screen():
   os.system('cls' if os.name == 'nt' else 'clear')
@@ -57,10 +57,9 @@ def main(win):
 
   while True:
     try:
-      selection = raw_input("Q: Quit")
-      if selection is "Q" or selection is "q":
-        print("Quitting")
-        sys.exit()
+      k = cv2.waitKey(1) & 0xFF
+      if k == ord('q'):
+        break
       if button.is_pressed:
         shots.choose_random_shots()
     except Exception as e:
