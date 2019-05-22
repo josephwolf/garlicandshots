@@ -50,14 +50,14 @@ class Shots:
       print(display_text)
 
 def main(win):
-  win.nodelay(False)
+  win.nodelay(True)
   shots = Shots()
   button = Button(25)
 
   while True:
     try:
-      k = cv2.waitKey(1) & 0xFF
-      if k == ord('q'):
+      key = win.getkey()
+      if key == os.linesep:
         break
       button.wait_for_press()
       shots.choose_random_shots()
