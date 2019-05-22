@@ -5,7 +5,6 @@ from time import sleep, time
 import curses
 import shutil
 from gpiozero import Button
-import cv2
 
 def clear_screen():
   os.system('cls' if os.name == 'nt' else 'clear')
@@ -52,13 +51,14 @@ class Shots:
 
 def main(win):
   win.nodelay(False)
+  stdscr = curses.initscr()
   shots = Shots()
   button = Button(25)
 
   while True:
+    c = stdscr.getch()
     try:
-      k = cv2.waitKey(1) & 0xFF
-      if k == ord('q'):
+      c == ord('q'):
         break
       if button.is_pressed:
         shots.choose_random_shots()
