@@ -73,7 +73,7 @@
 73;CATCH THE ELEVATOR;Gin, Grön Curaco, Lemon vodka
 74;RUM RUNNER;Dark rum, White rum, Banan, Cassis, Cranberry
 75;C.J. ROCKER;Bourbon, Vodka, Liquer 43, Kahlua
-76;www.blowout.se;Sambucca, Tequila, Tabasco
+76;www.blowout.se;Oh dear...
 77;BELLMAN’S LEG OPENER;Gin, Hasselnöt, Angostura
 78;BLUE ANGEL;Tequila, Curaco, Liquer 43
 79;IRON HOOK;Dark Rum, Bananas, Cocos, Triple Sec
@@ -99,3 +99,4 @@
 99;TOBY OR NOT TOBY;Rom, Jameson, Chokomenthe
 100;MICKEY’S MOUSE;Averna, Peach
 101;PERRE PUNCHDRUNK;Vodka, Bourbon, Punch
+XX;DIRE CURSE;DOOM UPON YOU AND YOUR HOUSE.

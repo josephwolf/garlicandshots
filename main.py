@@ -50,7 +50,7 @@ class Shots:
         display_text += '\n'
         display_text += '\n'
         display_text += '\n'
-        display_text += '  MADE BY WOLF'
+        display_text += '  JW'
 
         
 
