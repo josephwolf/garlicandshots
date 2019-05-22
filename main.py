@@ -39,13 +39,13 @@ class Shots:
       shots = self.random_shots(k)
 
       for shot in shots:
-        display_text = '\n'*3
+        display_text = ' '.center(lw, ' ')*3
         display_text += ' {}: {} '.format(shot.number,shot.name).center(lw, '=')
-        display_text += '\n'
+        display_text += ' '.center(lw, ' ')
         display_text += shot.ingredients.center(lw)
-        display_text += '\n'
+        display_text += ' '.center(lw, ' ')
         display_text += ''.center(lw, '=')
-        display_text += '\n'*4
+        display_text += ' '.center(lw, ' ')*4
 
       clear_screen()
       print(display_text)
