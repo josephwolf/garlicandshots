@@ -1,10 +1,9 @@
 from collections import namedtuple
 from random import choice, shuffle
-import os
 from time import sleep, time
-import curses
-import shutil
 from gpiozero import Button
+import shutil
+import os
 
 def clear_screen():
   os.system('cls' if os.name == 'nt' else 'clear')
@@ -49,20 +48,18 @@ class Shots:
       clear_screen()
       print(display_text)
 
-def main(win):
-  win.nodelay(False)
-  stdscr = curses.initscr()
-  shots = Shots()
-  button = Button(25)
 
-  while True:
-    c = stdscr.getch()
-    try:
-      c == ord('q'):
-        break
-      if button.is_pressed:
-        shots.choose_random_shots()
-    except Exception as e:
-      pass
+shots = Shots()
+button = Button(25)
+
+print("Created by Joey Wolf")
+print("github: https://github.com/josephwolf")
+print("Press the button to start!")
+
+while True:
+  try:
+    if button.is_pressed:
+      shots.choose_random_shots()
+  except KeyboardInterrupt:
+    pass
     
-curses.wrapper(main)
