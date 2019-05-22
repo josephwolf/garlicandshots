@@ -39,6 +39,8 @@ class Shots:
 
       for shot in shots:
         display_text = '\n'
+        display_text += '\n'
+        display_text += '\n'                
         display_text += ' {}: {} '.format(shot.number,shot.name).center(lw, '=')
         display_text += '\n'
         display_text += shot.ingredients.center(lw)
@@ -48,7 +50,7 @@ class Shots:
         display_text += '\n'
         display_text += '\n'
         display_text += '\n'
-        display_text += '  HACK THE WORLD. - JW'
+        display_text += '  MADE BY WOLF'
 
         
 
