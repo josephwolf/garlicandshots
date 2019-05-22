@@ -46,7 +46,9 @@ class Shots:
         display_text += ''.center(lw, '=')
         display_text += '\n'
         display_text += '\n'
-        display_text += 'HACK THE WORLD. - JW'
+        display_text += '\n'
+        display_text += '\n'
+        display_text += '  HACK THE WORLD. - JW'
 
         
 
