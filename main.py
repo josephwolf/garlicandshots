@@ -38,18 +38,13 @@ class Shots:
       shots = self.random_shots(k)
 
       for shot in shots:
-        display_text = '\n'
-        display_text += '\n'
-        display_text += '\n'                
+        display_text = '\n'*3
         display_text += ' {}: {} '.format(shot.number,shot.name).center(lw, '=')
         display_text += '\n'
         display_text += shot.ingredients.center(lw)
         display_text += '\n'
         display_text += ''.center(lw, '=')
-        display_text += '\n'
-        display_text += '\n'
-        display_text += '\n'
-        display_text += '\n'
+        display_text += '\n'*4
         display_text += '  JW'
 
         
@@ -62,8 +57,6 @@ def main(win):
   shots = Shots()
   button = Button(25)
 
-  while True:
-    if button.is_pressed:
-      shots.choose_random_shots()
+  button.when_pressed = shots.choose_random_shots()
     
 curses.wrapper(main)
