@@ -54,6 +54,16 @@ def main(win):
   shots = Shots()
   button = Button(25)
 
+  while True:
+    try:
+      key = win.getkey()
+      if key == os.linesep:
+        break
+      elif button.is_pressed:
+        shots.choose_random_shots()
+    except Exception as e:
+      pass
+
   button.when_pressed = shots.choose_random_shots()
     
 curses.wrapper(main)
