@@ -10,7 +10,7 @@ def clear_screen():
   os.system('cls' if os.name == 'nt' else 'clear')
 
 class Shots:
-  def __init__(self, filename='shots.txt'):
+  def __init__(self, filename='./shots.txt'):
     self.shots = self.list_of_shots(filename)
     shuffle(self.shots)
 
