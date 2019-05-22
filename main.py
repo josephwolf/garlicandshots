@@ -45,15 +45,12 @@ class Shots:
         display_text += '\n'
         display_text += ''.center(lw, '=')
         display_text += '\n'*4
-        display_text += '  JW'
-
-        
 
       clear_screen()
       print(display_text)
 
 def main(win):
-  win.nodelay(True)
+  win.nodelay(False)
   shots = Shots()
   button = Button(25)
 
